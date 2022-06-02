@@ -23,7 +23,7 @@ function useLocalStorage(itemName, initialValue) {
         } catch(error) {
             setError(error)
         }
-      }, 1000);
+      }, 5000);
     }, []); //Array vacio para solo ejecutarse una vez!
   
     const saveItem = (newItem) => {
