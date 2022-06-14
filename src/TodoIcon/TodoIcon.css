@@ -14,8 +14,9 @@
 
 .Icon-container--delete {
     position: absolute;
-    top: -24px;
+    /*  top: -24px; */
     right: 0;
+    border-radius: 1px solid red;
 }
 
 .Icon-svg {
